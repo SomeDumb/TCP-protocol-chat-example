@@ -1,3 +1,7 @@
 *.pyc
 .vscode/*
 *.json
+.pypirc
+build/*
+dist/
+*.egg-info/*
