@@ -225,3 +225,6 @@ class Client:
         lengthbuf = self.recvall(4)
         length, = struct.unpack('!I', lengthbuf)
         return self.recvall(length)
+
+ip = input('ip: ')
+client = Client(ip)

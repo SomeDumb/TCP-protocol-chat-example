@@ -321,3 +321,6 @@ class Server:
     def save_dict(dictionary,filename):
         with open(filename, "w") as outfile:
             json.dump(dictionary, outfile)
+            
+ip = 'localhost' #input('Введите ip сервера: ')
+serv = Server(ip, 2120)
