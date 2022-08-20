@@ -3,10 +3,18 @@
 # Install
 
 
-## Install with pip
+## Install via pip
 ```bash
 pip install tcp-client-server-raidix
 ```
+
+# Install via github
+
+```sh
+git clone git@github.com:SomeDumb/TCP-protocol-chat-example.git
+pip install -r requirements.txt
+```
+
 ## Run server
 ```python
 
