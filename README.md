@@ -1,5 +1,4 @@
-# Raidix
-TCP client-server chat example.
+# TCP client-server chat example.
 
 # Install
 
